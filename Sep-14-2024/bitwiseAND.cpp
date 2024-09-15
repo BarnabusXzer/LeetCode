@@ -22,7 +22,6 @@ public:
                     break;
                 }
                 cout << bitwiseAnd;
-
             }
         }
         return(0);
@@ -34,5 +33,5 @@ void main() {
     vector<int> test {1,2,3,3,2,2};
     vector<int> nums {1,2,3,3,2,2};
 
-    cout << solution.longestSubarray(nums);
+    solution.longestSubarray(test);
 };
